@@ -1,7 +1,7 @@
 # KeyRemap - Windows Key Remapping Utility ⌨️
 KeyRemap ⌨️ is a .NET desktop application that enables users to remap keyboard keys via the Windows Registry, providing a simplified interface for customizing key mappings.
 
-## NEW GUI VERSION!
+## NEW GUI VERSION! v1.0
 ![image](https://github.com/user-attachments/assets/65974d32-6ce1-4f74-afb3-6711ea41e186)
 
 ## Features
