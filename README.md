@@ -1,4 +1,4 @@
-<h1> KeyRemap - Windows Key Remapping Utility <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40" /></h1>
+<h1> Windows Key Remapping Utility <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="40" height="40" /></h1>
 <p>KeyRemap <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" width="10" height="10" /> is a .NET desktop application that enables users to remap keyboard keys via the Windows Registry, providing a simplified interface for customizing key mappings. </p>
 
 ## NEW GUI VERSION! v2.0
