@@ -21,14 +21,11 @@ namespace KeyRemap
             { "Num: 0 (0x0B)", 0x0B }, { "Special: Space (0x39)", 0x39 }, { "Special: Enter (0x1C)", 0x1C }, { "Special: Esc (0x01)", 0x01 }
         };
 
-
-        // Public method to expose the keyNameToScancode dictionary
         public static Dictionary<string, int> GetKeyNameToScancode()
         {
             return keyNameToScancode;
         }
 
-        // Get scancode from key name
         public static int GetScancodeFromKeyName(string keyName)
         {
             if (keyNameToScancode.TryGetValue(keyName, out int scancode))
@@ -38,8 +35,7 @@ namespace KeyRemap
             return -1; // invalid key
         }
 
-        // Display all key names to the user
-        public static void DisplayAvailableKeyNames()
+DisplayAvailableKeyNames()
         {
             Console.WriteLine("Available key names:");
             foreach (var keyName in keyNameToScancode.Keys)
@@ -48,7 +44,6 @@ namespace KeyRemap
             }
         }
 
-        // Build the scancode map byte array
         public static byte[] BuildScancodeMap(int originalScancode, int newScancode)
         {
             return new byte[]
