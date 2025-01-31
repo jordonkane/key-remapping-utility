@@ -14,7 +14,7 @@ namespace KeyRemap
             return keyInfo.Key.ToString();
         }
 
-        public static string Prompt(string message) // prompt for unput
+        public static string Prompt(string message) // prompt for input
         {
             Console.WriteLine(message);
             return Console.ReadLine();
