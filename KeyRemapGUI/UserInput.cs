@@ -8,21 +8,18 @@ namespace KeyRemap
 {
     public class UserInput
     {
-        // Capture the user's key press and return the key name
         public static string CaptureKey()
         {
-            ConsoleKeyInfo keyInfo = Console.ReadKey(intercept: true); // Capture without printing the key
+            ConsoleKeyInfo keyInfo = Console.ReadKey(intercept: true); // capture without printing the key
             return keyInfo.Key.ToString();
         }
 
-        // Prompt for input (without interception)
-        public static string Prompt(string message)
+        public static string Prompt(string message) // prompt for unput
         {
             Console.WriteLine(message);
             return Console.ReadLine();
         }
 
-        // Confirmation prompt
         public static bool Confirm()
         {
             string response = Console.ReadLine();
